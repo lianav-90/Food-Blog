@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+header i {
+    font-size: 150%;
+    padding: 1.6% 1.2%;
+    line-height: 2 !important;
+}
+header i:hover {
+    background-color: #cccccc;
+    cursor: pointer;  
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+header h2, footer h2 {
+    font-weight: normal;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-top: 4%;
+}
+main div {
+    width: 23.7%;
+    margin-bottom: 3%;   
+}
+main img {
+    width: 100%;
+}
+main h2, h2.normal {
+    font-weight: normal;
+    text-align: center;
+}
+main p {
+    text-align: center;
+}
+button {
+    padding: 0.7% 1%;
+}
+button.arrow {
+    padding: 0.5% 0.7%;
+}
+div.buttonbar {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0% 4%;
+    border-bottom: 1px solid #EEEEEE;
+}
+button#first {
+    background-color: black;
+    color: white;
+    border: none;
+}
+button#first:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+button.white {
+    background-color: white;
+    border: none;
+}
+button.white:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+section, footer, div.buttonbar {
+    width: 75%;
+    margin: auto;
+}
+h2.normal {
+    margin: 6% 0% 4%;
+}
+section img {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+div.finish {
+    width: 32.2%;
+}
+div.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+span.black {
+    background-color: black;
+    color: white;
+    padding: 1% 2.5%;
+    vertical-align: middle;
+}
+span.grey {
+    background-color: grey;
+    color: white;
+    font-size: 71%;
+    padding: 1% 2.5%;  
+}
+h2.bold {
+    text-align: center; 
+    margin: 4% 0 0;
+}
+section h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+section p {
+    text-align: center;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 9%;
+}
+footer {
+    margin: 3% auto 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer a {
+    color: black;
+}
+div.inline h3, div.inline p {
+    margin: 0;
+    font-weight: normal;
+}
+div.inline p {
+    margin-top: -7%;
+}
+footer img {
+    width: 50px;  
+    margin: 0 3% 3% 4%; 
+}
+div.post {
+    padding-top: 4%;
+}
+div.post:hover {
+    background-color: #CCCCCC;
+}
+div#border {
+    border-bottom: 1px solid #EEEEEE;
+}
+p:last-child {
+    line-height: 260%;
+}
+@media all and (max-width: 768px) {
+    main div {
+        width: 47%;
+    }
+}
+@media all and (max-width: 380px) {
+    main div {
+        width: 100%;
+    }
+    div.finish {
+        width: 100%;
+    }
+}
